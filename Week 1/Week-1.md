@@ -289,3 +289,23 @@ __Output:__
 14 : Even
 15 : Odd
 ```
+
+## Problem 8
+
+Take two integers as input from user and return the sum
+
+__Code:__
+
+```
+number_1, number_2 = input("Input two numbers: ").split()
+
+print("Sum of the two numbers: " + str(int(number_1) + int(number_2)))
+```
+
+__Output:__
+
+```
+Input two numbers: 3 8
+Sum of the two numbers: 11
+```
+
