@@ -256,3 +256,36 @@ ZEBRA
 PANTHER
 ```
 
+## Problem 7
+
+Iterate from 1 to 15, printing whether the number is odd or even
+
+__Code:__
+
+```
+for i in range(1, 16):
+    if i % 2 == 0:
+        print(str(i) + " : Even")
+    else:
+        print(str(i) + " : Odd")
+```
+
+__Output:__
+
+```
+1 : Odd
+2 : Even
+3 : Odd
+4 : Even
+5 : Odd
+6 : Even
+7 : Odd
+8 : Even
+9 : Odd
+10 : Even
+11 : Odd
+12 : Even
+13 : Odd
+14 : Even
+15 : Odd
+```
