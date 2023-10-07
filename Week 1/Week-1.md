@@ -231,3 +231,28 @@ __Output:__
 Input Word:  Alphabet
 Number of Vowels: 2
 ```
+
+## Problem 6
+
+Iterate through the following list of animals and print each one in all caps.
+`animals = ['tiger', 'elephant', 'monkey', 'zebra', 'panther']`
+
+__Code:__
+
+```
+animals = ['tiger', 'elephant', 'monkey', 'zebra', 'panther']
+
+for animal in animals:
+    print(animal.upper())
+```
+
+__Output:__
+
+```
+TIGER
+ELEPHANT
+MONKEY
+ZEBRA
+PANTHER
+```
+
