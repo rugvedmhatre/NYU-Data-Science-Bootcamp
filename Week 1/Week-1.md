@@ -34,5 +34,37 @@ __Output:__
 34
 ```
 
+## Problem 2
+
+Display numbers at the odd indices of a list
+
+__Code:__
+
+```
+numbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+print("List: ", numbers_list)
+
+print()
+print("Numbers at Odd Indices of the list: ")
+
+for i in range(len(numbers_list)):
+    if i % 2 != 0:
+        print(numbers_list[i])
+```
+
+__Output:__
+
+```
+List:  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+Numbers at Odd Indices of the list: 
+2
+4
+6
+8
+10
+12
+14
+```
 
 
