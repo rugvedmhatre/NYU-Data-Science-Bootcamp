@@ -67,4 +67,37 @@ Numbers at Odd Indices of the list:
 14
 ```
 
+## Problem 3
+
+Print a list in reverse order
+
+__Code:__
+
+```
+days_of_the_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+print("List: ", days_of_the_week)
+
+n = len(days_of_the_week)
+
+print()
+print("List in reverse order: ")
+for i in range(n):
+    print(days_of_the_week[(n - 1) - i])
+```
+
+__Output:__
+
+```
+List:  ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+List in reverse order: 
+Sunday
+Saturday
+Friday
+Thursday
+Wednesday
+Tuesday
+Monday
+```
 
