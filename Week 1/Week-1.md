@@ -101,3 +101,105 @@ Tuesday
 Monday
 ```
 
+## Problem 4
+
+Your task is to count the number of different words in this text:
+
+_ChatGPT has created this text to provide tips on creating interesting paragraphs. 
+First, start with a clear topic sentence that introduces the main idea. 
+Then, support the topic sentence with specific details, examples, and evidence.
+Vary the sentence length and structure to keep the reader engaged.
+Finally, end with a strong concluding sentence that summarizes the main points.
+Remember, practice makes perfect!_
+
+__Code:__
+
+```
+string = """
+ChatGPT has created this text to provide tips on creating interesting paragraphs. 
+First, start with a clear topic sentence that introduces the main idea. 
+Then, support the topic sentence with specific details, examples, and evidence.
+Vary the sentence length and structure to keep the reader engaged.
+Finally, end with a strong concluding sentence that summarizes the main points.
+Remember, practice makes perfect!
+"""
+
+# removing escape characters
+string = string.replace('\n',' ')
+string = string.replace('\t',' ')
+
+# splitting words, and removing non-alphanumeric characters
+word_list = string.split()
+word_list = [word.strip(',.!') for word in word_list]
+
+# getting the unique words
+word_list = set(word_list)
+
+word_dict = dict()
+
+for word in word_list:
+    if word in word_dict:
+        word_dict[word] += 1
+    else:
+        word_dict[word] = 1
+
+print("Count of words in the string: ")
+
+for word in word_dict.keys():
+    count = word_dict[word]
+    print(word + " : " + str(count))
+```
+
+__Output:__
+
+```
+Count of words in the string: 
+makes : 1
+length : 1
+structure : 1
+end : 1
+idea : 1
+introduces : 1
+specific : 1
+examples : 1
+a : 1
+Finally : 1
+the : 1
+with : 1
+perfect : 1
+Vary : 1
+that : 1
+support : 1
+has : 1
+engaged : 1
+on : 1
+practice : 1
+and : 1
+ChatGPT : 1
+Remember : 1
+this : 1
+provide : 1
+sentence : 1
+main : 1
+details : 1
+start : 1
+First : 1
+creating : 1
+clear : 1
+paragraphs : 1
+concluding : 1
+interesting : 1
+created : 1
+topic : 1
+Then : 1
+strong : 1
+to : 1
+text : 1
+tips : 1
+reader : 1
+summarizes : 1
+points : 1
+keep : 1
+evidence : 1
+```
+
