@@ -5,7 +5,7 @@ Display Fibonacci Series upto 10 terms
 
 __Code:__
 
-```
+```python
 fibonacci_numbers = []
 
 # Adding the first two fibonacci numbers to the list
@@ -40,7 +40,7 @@ Display numbers at the odd indices of a list
 
 __Code:__
 
-```
+```python
 numbers_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 print("List: ", numbers_list)
 
@@ -73,7 +73,7 @@ Print a list in reverse order
 
 __Code:__
 
-```
+```python
 days_of_the_week = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
 print("List: ", days_of_the_week)
@@ -114,7 +114,7 @@ Remember, practice makes perfect!_
 
 __Code:__
 
-```
+```python
 string = """
 ChatGPT has created this text to provide tips on creating interesting paragraphs. 
 First, start with a clear topic sentence that introduces the main idea. 
@@ -209,7 +209,7 @@ Write a function that takes a word as an argument and returns the number of vowe
 
 __Code:__
 
-```
+```python
 def count_vowels(word):
     vowel_count = 0
 
@@ -239,7 +239,7 @@ Iterate through the following list of animals and print each one in all caps.
 
 __Code:__
 
-```
+```python
 animals = ['tiger', 'elephant', 'monkey', 'zebra', 'panther']
 
 for animal in animals:
@@ -262,7 +262,7 @@ Iterate from 1 to 15, printing whether the number is odd or even
 
 __Code:__
 
-```
+```python
 for i in range(1, 16):
     if i % 2 == 0:
         print(str(i) + " : Even")
@@ -296,7 +296,7 @@ Take two integers as input from user and return the sum
 
 __Code:__
 
-```
+```python
 number_1, number_2 = input("Input two numbers: ").split()
 
 print("Sum of the two numbers: " + str(int(number_1) + int(number_2)))
@@ -399,7 +399,7 @@ movies = [
 
 __Code:__
 
-```
+```python
 def rating_more_than_5(movies, movie_name):
     for movie in movies:
         if movie['name'] == movie_name:
