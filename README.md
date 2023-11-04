@@ -8,3 +8,5 @@ NYU Data Science Bootcamp Fall 23
 [Week 3 Practice Solutions](https://github.com/rugvedmhatre/NYU-Data-Science-Bootcamp/blob/main/Week%203/Week-3.ipynb)
 
 [Week 4 Practice Solutions](https://github.com/rugvedmhatre/NYU-Data-Science-Bootcamp/blob/main/Week%204/Week-4.ipynb)
+
+[Week 5 Practice Solutions](https://github.com/rugvedmhatre/NYU-Data-Science-Bootcamp/blob/main/Week%205/Week-5.md)
