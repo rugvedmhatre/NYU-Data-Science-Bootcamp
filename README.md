@@ -14,3 +14,9 @@ NYU Data Science Bootcamp Fall 23
 [Week 6 Practice Solutions](https://github.com/rugvedmhatre/NYU-Data-Science-Bootcamp/blob/main/Week%206/Week-6.ipynb)
 
 [Week 7 Practice Solutions](https://github.com/rugvedmhatre/NYU-Data-Science-Bootcamp/blob/main/Week%207/Week-7.ipynb)
+
+### Project
+
+[Code](https://github.com/rugvedmhatre/NYU-Data-Science-Bootcamp/blob/main/Project/Project-Analysis.ipynb)
+
+[Presentation](https://github.com/rugvedmhatre/NYU-Data-Science-Bootcamp/blob/main/Project/Project-Presentation.pdf)
